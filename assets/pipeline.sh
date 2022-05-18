@@ -4,6 +4,10 @@
 # them before npm spits out heaps of messages
 SLEEP_TIME=1
 
+echo_and_wait () {
+    echo $1 && sleep $SLEEP_TIME
+}
+
 MESSAGE="COMPX341-22A-A3 Commiting from CI/CD Pipeline"
 
 # ===== Pipeline =====
