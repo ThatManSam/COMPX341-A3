@@ -1,3 +1,5 @@
+// Name: Joel Shepherd | ID: 1535837
+
 //
 export default {
   apiGateway: {
